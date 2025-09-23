@@ -1,5 +1,5 @@
 import React from "react";
-import {Touchableopacity, Text, StyleSheet} from 'react-native';
+import {Touchableopacity,} from 'react-native';
 
 //Definindo os tipos das props do botão
 interface ButtonVerdeProps {

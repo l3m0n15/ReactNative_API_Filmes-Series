@@ -1,6 +1,6 @@
 //Estilo do botão Main
 
-import {StyleSheet} from "react-native";
+import {StyleSheet,Text} from "react-native";
 
 const Style = StyleSheet.create({
 button:{
