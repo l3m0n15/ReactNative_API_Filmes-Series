@@ -13,7 +13,7 @@ onPress: () => void // Função que será executada quando o botão for pression
 export const ButtonVerdeProps: React.FC<ButtonVerdeProps> = ({title, onPress}) => {
     return(
 //TouchableOpacity é o botão "clicável" que dá efeito de opacidade ao ser pressionado
-<Touchableopacity
+<TouchableOpacity
 Style={Styles.button}  //Aplica os estilos definidos da pasta "Styles./ButtonMain.ts"
 onPress={onPress}  //Liga a função de clique passada como prop
 activeOpacity={0.7}  //Define a transparência quando o botão é pressionado
@@ -22,6 +22,6 @@ activeOpacity={0.7}  //Define a transparência quando o botão é pressionado
 {/* Texto dentro do botão*/ }
 <text style={Style.text}> Login </text>
 
-</Touchableopacity>
+</TouchableOpacity>
     )
 }
