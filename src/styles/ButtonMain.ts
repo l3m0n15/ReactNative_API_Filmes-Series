@@ -1,8 +1,8 @@
 //Estilo do botão Main
 
-import {StyleSheet,Text} from "react-native";
+import {StyleSheet,} from "react-native";
 
-const Style = StyleSheet.create({
+export const Style = StyleSheet.create({
 button:{
 backgroundColor: '#1DB954', //cor de fundo (verde)
 paddingVertical: 14, // Espaço interno em cima e embaixo
