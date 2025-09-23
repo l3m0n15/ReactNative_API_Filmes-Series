@@ -2,13 +2,6 @@ import React from "react";
 import {TouchableOpacity,Text} from 'react-native';
 import { Colors } from "../styles/colors"; //importar estilos de outro arquivo
 
-//Definindo os tipos das props do botão
-interface ButtonOneProps {
-title:string  //Texto que vai aparecer dentro do botão
-onPress: () => void // Função que será executada quando o botão for pressionado
-
-}
-
 //Componente funcional do botão
 export const ButtonOne: React.FC<ButtonOneProps> = ({title, onPress}) => {
     return(
