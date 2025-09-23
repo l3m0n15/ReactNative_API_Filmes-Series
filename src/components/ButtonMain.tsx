@@ -19,7 +19,7 @@ activeOpacity={0.7}  //Define a transparência quando o botão é pressionado
 >
 
 {/* Texto dentro do botão*/ }
-<text style={Style.text}> Login </text>
+<text style={Styles.text}> Login </text>
 
 </TouchableOpacity>
     )
