@@ -1,6 +1,7 @@
 import React from 'react';
-import {View, StyleSheet} from 'react-native';
+import {View,} from 'react-native';
 import{ButtonOne} from '../components/ButtonMain';
+import { Colors } from '../styles/colors';
 
 export const LoginScreen =() => {
 return(
