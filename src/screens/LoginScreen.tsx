@@ -7,8 +7,8 @@ return(
 
 <View>
 
-<ButtonMain title="Register" backgroundColor="#1DB954" textColor="#FFFFFF" />
-<ButtonMain title="Login" backgroundColor="#191414" textColor="#FFFFFF" />
+<ButtonOne title="Register" backgroundColor="#1DB954" textColor="#FFFFFF" />
+<ButtonOne title="Login" backgroundColor="#191414" textColor="#FFFFFF" />
 
 
 
