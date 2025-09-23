@@ -6,7 +6,7 @@ import { Colors } from "../styles/colors"; //importar estilos de outro arquivo
 export const ButtonOne: React.FC<ButtonOneProps> = ({title, onPress}) => {
     return(
 //TouchableOpacity é o botão "clicável" que dá efeito de opacidade ao ser pressionado
-<TouchableOpacity style={Colors.button}  //Aplica os estilos definidos da pasta "Styles./ButtonMain.ts"
+<TouchableOpacity style={Colors}  //Aplica os estilos definidos da pasta "Styles./ButtonMain.ts"
 onPress={onPress}  //Liga a função de clique passada como prop
 activeOpacity={0.7}  //Define a transparência quando o botão é pressionado
 >
