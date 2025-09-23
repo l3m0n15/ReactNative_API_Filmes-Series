@@ -1,5 +1,5 @@
 import React from "react";
-import {Touchableopacity,Text} from 'react-native';
+import {TouchableOpacity,Text} from 'react-native';
 import { Style } from "../styles/ButtonMain"; //importar estilos de outro arquivo
 
 //Definindo os tipos das props do botão
