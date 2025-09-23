@@ -2,7 +2,7 @@
 
 import {StyleSheet,} from "react-native";
 
-export const Style = StyleSheet.create({
+export const Styles = StyleSheet.create({
 button:{
 backgroundColor: '#1DB954', //cor de fundo (verde)
 paddingVertical: 14, // Espaço interno em cima e embaixo
