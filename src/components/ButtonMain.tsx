@@ -1,6 +1,6 @@
 import React from "react";
 import {TouchableOpacity,Text} from 'react-native';
-import { Style, Styles } from "../styles/ButtonMain"; //importar estilos de outro arquivo
+import { Styles } from "../styles/ButtonMain"; //importar estilos de outro arquivo
 
 //Definindo os tipos das props do botão
 interface ButtonVerdeProps {
