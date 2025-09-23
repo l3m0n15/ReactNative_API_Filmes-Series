@@ -10,12 +10,12 @@ paddingHorizontal:40, // Espaço interno nas laterais
 borderRadius: 50, //Deixa o botão com bordas arrendadas
 alignItems: 'center', // Centraliza o conteúdo horizontalmente
 justifyContent:'center', // Centraliza o conteúdo verticalmente
+},
 
+text:{
+    color: '#FFFFFF', //Cor do texto (branco)
+    fontSize: 16, //Tamanho da fonte
+    fontWeight: 'bold', //Deixa o texto em negrito
+},
 
-
-
-
-}
-
-
-})
+});
