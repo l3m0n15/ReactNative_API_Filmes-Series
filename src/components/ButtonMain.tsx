@@ -1,6 +1,7 @@
 import React from "react";
 import {TouchableOpacity,Text} from 'react-native';
 import { Colors } from "../styles/colors"; //importar estilos de outro arquivo
+import {ButtonOneProps}
 
 //Componente funcional do botão
 export const ButtonOne: React.FC<ButtonOneProps> = ({title, onPress}) => {
