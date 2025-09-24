@@ -1,5 +1,5 @@
 import React from 'react';
-import {View,} from 'react-native';
+import {Button, View,} from 'react-native';
 import{ButtonOne} from '../components/ButtonMain';
 import { Colors } from '../styles/colors';
 
@@ -8,8 +8,8 @@ return(
 
 <View>
 
-<ButtonOne title="Register" backgroundColor={Colors.spotifyGreen} textColor={Colors.white} />
-<ButtonOne title="Login" backgroundColor="#191414" textColor="#FFFFFF" />
+<ButtonOne title="Register" backgroundColor={Colors.spotifyGreen} textColor={Colors.white} onPress={() => console.log("Register button pressed")} />
+<ButtonOne title="Login" backgroundColor="#191414" textColor="#FFFFFF" onPress={() => console.log("Login button pressed")} />
 
 
 
