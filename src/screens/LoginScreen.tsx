@@ -3,13 +3,15 @@ import {Button, View,} from 'react-native';
 import{ButtonOne} from '../components/ButtonMain';
 import { Colors } from '../styles/colors';
 
-export const LoginScreen =() => {
+export const TelaDeLogin =() => {
 return(
 
 <View>
 
-<ButtonOne title="Register" backgroundColor={Colors.spotifyGreen} textColor={Colors.white} onPress={() => console.log("Register button pressed")} />
-<ButtonOne title="Login" backgroundColor="#191414" textColor="#FFFFFF" onPress={() => console.log("Login button pressed")} />
+<ButtonOne title="Continue com seu E-mail" backgroundColor={Colors.spotifyGreen} textColor={Colors.white} onPress={() => console.log("Register button pressed")} />
+<ButtonOne title="Continue com seu numero de celular" backgroundColor="#191414" textColor="#FFFFFF" onPress={() => console.log("Login button pressed")} />
+<ButtonOne title="Continue com seu Google" backgroundColor="#191414" textColor="#FFFFFF" onPress={() => console.log("Login button pressed")} />
+<ButtonOne title="Continue com seu Facebook" backgroundColor="#191414" textColor="#FFFFFF" onPress={() => console.log("Login button pressed")} />
 
 
 
