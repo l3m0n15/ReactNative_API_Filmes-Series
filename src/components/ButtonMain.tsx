@@ -1,10 +1,10 @@
 import React from "react";
 import {TouchableOpacity,Text} from 'react-native';
 import { Colors } from "../styles/colors"; //importar estilos de outro arquivo
-import {ButtonOneProps}
+import {ButtonOneProps} from "../types/ButtonMain"
 
 //Componente funcional do botão
-export const ButtonOne: React.FC<ButtonOneProps> = ({title, onPress}) => {
+export const ButtonOne: React.FC<ButtonOneProps> = ({title, onPress, backgroundcolor, textColor}) => {
     return(
 
 //TouchableOpacity é o botão "clicável" que dá efeito de opacidade ao ser pressionado
