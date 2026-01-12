@@ -1,23 +1,20 @@
 import React from "react";
-import {TouchableOpacity,Text} from 'react-native';
-import { Colors } from "../styles/colors"; //importar estilos de outro arquivo
-import {ButtonOneProps}
+import {TouchableOpacity, Text} from "react-native";
+import {Styles as ButtonStyles} from "../styles/ButtonMain";
+import {Colors} from "../styles/colors";
+import {ButtonOneProps} from "../types/ButtonMainP";
 
-//Componente funcional do botão
-export const ButtonOne: React.FC<ButtonOneProps> = ({title, onPress}) => {
-    return(
+export const ButtonOne: React.FC<ButtonOneProps> = ({title, onPress, backgroundColor, textColor}) => {
+    const bg = backgroundColor ?? Colors.spotifyGreen;
+    const fg = textColor ?? Colors.white;
 
-//TouchableOpacity é o botão "clicável" que dá efeito de opacidade ao ser pressionado
-<TouchableOpacity
-
-style={{backgroundColor: Colors.spotifyBlack}}  //Aplica os estilos definidos da pasta "Styles./ButtonMain.ts"
-onPress={onPress}  //Liga a função de clique passada como prop
-activeOpacity={0.7}  //Define a transparência quando o botão é pressionado
->
-
-{/* Texto dentro do botão*/ }
-<Text style={{backgroundColor: Colors.white}}> {title} </Text>
-
-</TouchableOpacity>
-    )
-}
+    return (
+        <TouchableOpacity
+            style={[ButtonStyles.button, {backgroundColor: bg}]}
+            onPress={onPress}
+            activeOpacity={0.8}
+        >
+            <Text style={[ButtonStyles.text, {color: fg}]}>{title}</Text>
+        </TouchableOpacity>
+    );
+};d
