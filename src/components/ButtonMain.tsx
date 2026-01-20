@@ -17,4 +17,4 @@ export const ButtonOne: React.FC<ButtonOneProps> = ({title, onPress, backgroundC
             <Text style={[ButtonStyles.text, {color: fg}]}>{title}</Text>
         </TouchableOpacity>
     );
-};d
+};
