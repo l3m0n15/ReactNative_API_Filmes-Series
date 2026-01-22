@@ -12,6 +12,8 @@ const styles = StyleSheet.create({
         backgroundColor: Colors.spotifyBlack,
     },
 
+
+
     title: {
         fontSize:24,
         fontWeight: 'bold',
@@ -20,7 +22,7 @@ const styles = StyleSheet.create({
     }
 });
 
-export const RegisterScreen = ({navigation}) => {
+export const RegisterScreen = ({navigation}: { navigation:any}) => { 
     return(
 
 <View style={styles.container}>
@@ -33,6 +35,8 @@ export const RegisterScreen = ({navigation}) => {
 <ButtonOne title="Entrar com Google"backgroundColor={Colors.spotifyGreen}textColor={Colors.white}onPress={() => {console.log("Google"); navigation.navigate("Register");}}/>
 <ButtonOne title="Entrar com Facebook"backgroundColor={Colors.spotifyGreen}textColor={Colors.white}onPress={() => {console.log("Facebook"); navigation.navigate("Register");}}/>
 <ButtonOne title="Entrar com numero de telefone"backgroundColor={Colors.spotifyGreen}textColor={Colors.white}onPress={() => {console.log("Telefone"); navigation.navigate("Register");}}/>
-</View>);
+
 </View>
-    
+</View>
+    );
+    };
