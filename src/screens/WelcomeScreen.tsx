@@ -16,19 +16,18 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         color: Colors.white,
         marginBottom: 20,
-        
-
     }
-})
+});
 
-export const WelcomeScreen = ({navigation}) => {
+export const WelcomeScreen = ({navigation}: any) => {
     return(
 
-<View>
-<Text> Welcome </Text>  
+<View style={styles.container}>
+<Text style={styles.title}> Welcome </Text>  
+<View style={{gap:15}}>
 <ButtonOne  title="Register"backgroundColor={Colors.spotifyGreen}textColor={Colors.white}onPress={() => {console.log(""); navigation.navigate("Register");}}/>
 <ButtonOne title="Login"backgroundColor={Colors.spotifyGreen}textColor={Colors.white}onPress={() => {console.log(""); navigation.navigate("Login");}}/>
-
+</View>
 
 </View>
 

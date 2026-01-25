@@ -3,7 +3,6 @@ import React from "react";
 import { Colors } from '../styles/colors'
 import { ButtonOne } from "../components/ButtonMain";
 
-
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -11,8 +10,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: Colors.spotifyBlack,
     },
-
-
 
     title: {
         fontSize:24,

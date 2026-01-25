@@ -4,7 +4,7 @@ import {Styles as ButtonStyles} from "../styles/ButtonMain";
 import {Colors} from "../styles/colors";
 import {ButtonOneProps} from "../types/ButtonMainP";
 
-export const ButtonOne: React.FC<ButtonOneProps> = ({title, onPress, backgroundColor, textColor}) => {
+export const ButtonOne: React.FC<ButtonOneProps> = ({title, onPress, backgroundColor,textColor}) => {
     const bg = backgroundColor ?? Colors.spotifyGreen;
     const fg = textColor ?? Colors.white;
 
