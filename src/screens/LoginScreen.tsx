@@ -65,4 +65,4 @@ onPress={()=> navigation.navigate('Register')}
 
 )
 
-}
+}onPress={()=> navigation.navigate('Register')}
