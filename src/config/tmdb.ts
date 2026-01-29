@@ -1,5 +1,5 @@
 export const TMDB_CONFIG = {
-  API_KEY: "SUA_CHAVE_AQUI",
+  API_KEY: "6a64fca9ae6bb32bd90cdfa6ab71ded1",
   BASE_URL: "https://api.themoviedb.org/3",
   IMAGE_BASE_URL: "https://image.tmdb.org/t/p",
   LANGUAGE: "pt-BR",
@@ -13,6 +13,3 @@ export const getImageUrl = (
   if (!path) return "";
   return `${TMDB_CONFIG.IMAGE_BASE_URL}/${size}${path}`;
 };
-
-SharedArrayBuffer;
-SharedArrayBuffer;
